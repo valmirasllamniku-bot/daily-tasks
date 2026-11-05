@@ -1,2 +1,2 @@
 # daily-tasks
-Daily Tasks – Manage Your Day
+Daily Tasks Web Application

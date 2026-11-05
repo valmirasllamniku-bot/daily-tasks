@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tasks - My Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Daily Tasks</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tasks.html" class="active">Tasks</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <h1 class="page-title">My Daily Tasks</h1>
+        <p class="page-description">
+            Organize your activities and complete your daily goals.
+        </p>
+
+        <form class="task-form" id="taskForm">
+            <input type="text" id="taskInput" placeholder="Enter a new task..." required>
+
+            <select id="taskCategory">
+                <option value="Personal">Personal</option>
+                <option value="University">University</option>
+                <option value="Work">Work</option>
+            </select>
+
+            <button type="submit">+ Add Task</button>
+        </form>
+
+        <div id="taskStats" class="page-description">
+            Total Tasks: 0 | Completed: 0
+        </div>
+
+        <div class="task-list" id="taskList">
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Daily Tasks. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
